@@ -1,6 +1,6 @@
 # Terms and Conditions
 
-_Last updated: 2nd Oct 2025
+Last updated: 2nd Oct 2025
 
 Welcome to **PelaPela**, an iOS application designed to help non-native speakers practice and improve their English.  
 By accessing or using this app, you agree to be bound by these Terms and Conditions.
