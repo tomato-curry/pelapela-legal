@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="PelaPela – AI英会話アプリ。話す・聞く・学ぶをもっと自然に。AI講師と楽しく英語を練習しよう。" />
   <title>PelaPela – AI英会話アプリ</title>
-  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" href="../resources/pela.png" type="image/png" />
   <style>
     :root {
       --blue: #4A90E2;
@@ -25,6 +25,13 @@
     header {
       padding: 60px 20px 20px;
     }
+    .app-icon {
+      width: 120px;
+      height: 120px;
+      border-radius: 24px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      margin-bottom: 24px;
+    }
     h1 {
       font-size: 2.4rem;
       color: var(--blue);
@@ -34,12 +41,6 @@
       font-weight: 500;
       color: #555;
       margin-bottom: 40px;
-    }
-    .screenshot {
-      width: 260px;
-      max-width: 80%;
-      border-radius: 20px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     }
     .cta {
       margin-top: 40px;
@@ -63,12 +64,15 @@
       color: var(--blue);
       text-decoration: none;
     }
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="app-preview.png" alt="PelaPela app screenshot" class="screenshot" />
+    <img src="../resources/pela.png" alt="PelaPela App Icon" class="app-icon" />
     <h1>PelaPela</h1>
     <h2>AIと話して、あなたの英語を楽しくレベルアップ。</h2>
 
@@ -91,11 +95,10 @@
   </section>
 
   <footer>
-    © 2025 PelaPela | 
-    <a href="/privacy">プライバシーポリシー</a> | 
-    <a href="/terms">利用規約</a>
+    © 2025 PelaPela |
+    <a href="https://pela-pela.xyz/ja/privacy" target="_blank" rel="noopener">プライバシーポリシー</a> |
+    <a href="https://pela-pela.xyz/ja/" target="_blank" rel="noopener">利用規約</a>
   </footer>
 
 </body>
 </html>
-
