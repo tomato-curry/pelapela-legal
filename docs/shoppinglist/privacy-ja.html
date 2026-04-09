@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - Shopping List</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+            line-height: 1.8;
+            color: #4A4A4A;
+            background-color: #FDF8F4;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #C4A484;
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            color: #8B7355;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            color: #5D4E3A;
+            font-size: 18px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+        p {
+            margin-bottom: 16px;
+        }
+        ul {
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #FAF0E6;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .contact {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #E8DDD4;
+        }
+        a {
+            color: #C4A484;
+        }
+    </style>
+</head>
+<body>
+    <h1>プライバシーポリシー</h1>
+    <p class="last-updated">最終更新日：2026年4月</p>
+
+    <div class="highlight">
+        <strong>概要：</strong> Shopping List は、買い物リストのデータを主にお客様の端末内に保存します。AIによる並び替え機能や貼り付けテキストの解析機能を使う場合に限り、送信したテキストが当社のバックエンドで処理されます。
+    </div>
+
+    <h2>1. 取得・処理する情報</h2>
+    <p>Shopping List では、アプリの利用にあたり次の情報を取得または処理します。</p>
+    <ul>
+        <li>お客様がアプリ内で作成・編集する買い物項目のテキスト</li>
+        <li>解析して項目化するためにお客様が貼り付けるテキスト</li>
+        <li>端末上でリストを保存・表示するために必要な基本的なアプリ状態</li>
+        <li>バックエンド保護のための限定的な技術情報（IPアドレスをもとにしたハッシュ化済みレート制限識別子など）</li>
+    </ul>
+
+    <h2>2. ローカル保存</h2>
+    <p>買い物リストのデータは主にお客様の端末内に保存されます。これにより、アカウントを作成しなくても、日常的なリスト管理機能を利用できます。</p>
+
+    <h2>3. AI支援機能</h2>
+    <p>AIによる並び替え機能を使うと、現在の買い物項目のテキストがカテゴリ分類と並び替えのために当社のバックエンドへ送信されます。</p>
+    <p>貼り付けテキストの解析機能を使うと、送信したテキストが買い物項目への変換とカテゴリ分類のために当社のバックエンドへ送信されます。</p>
+    <p>これらのリクエストは Firebase Cloud Functions を経由し、当社のバックエンドを通じて OpenAI により処理されます。これらの任意機能には、機微な個人情報を入力しないようご注意ください。</p>
+
+    <h2>4. アカウント登録不要</h2>
+    <p>Shopping List の基本機能を利用するために、アカウント登録は不要です。メールアドレスなどを提供しなくても、項目の作成、編集、チェック、並び替え、削除を行えます。</p>
+
+    <h2>5. 情報の利用目的</h2>
+    <p>当社は、取得した情報を次の目的のためにのみ利用します。</p>
+    <ul>
+        <li>端末上で買い物リストを保存・表示するため</li>
+        <li>お客様が開始した AI による並び替えや解析機能を処理するため</li>
+        <li>リクエスト検証、App Check、レート制限によりバックエンドを保護するため</li>
+        <li>障害対応およびサービスの安定運用のため</li>
+    </ul>
+
+    <h2>6. 情報の共有</h2>
+    <p>当社は、お客様の個人データを販売しません。</p>
+    <p>次の場合に限り、情報を共有することがあります。</p>
+    <ul>
+        <li><strong>サービス提供事業者：</strong> AI機能の運用を支援する事業者（Firebase Cloud Functions のホスティングや OpenAI の処理を含みます）</li>
+        <li><strong>お客様の操作に基づく場合：</strong> お客様が AI による並び替えや解析機能を利用した場合</li>
+        <li><strong>法的要請：</strong> 法令により必要な場合、または権利・安全・サービス保護のために合理的に必要な場合</li>
+    </ul>
+
+    <h2>7. 保存期間と削除</h2>
+    <p>端末内に保存された買い物リストのデータは、お客様が編集または削除するまで、またはアプリを削除するまで端末上に保持されます。</p>
+    <p>レート制限記録など、サービス運用上必要なバックエンドデータは、インフラ運用上必要な一定期間保持される場合があります。</p>
+
+    <h2>8. セキュリティ</h2>
+    <p>当社は、AI支援機能を支えるバックエンドサービスを保護するために合理的な技術的措置を講じます。ただし、送信や保存の方法に絶対的な安全性はなく、完全な安全性を保証することはできません。</p>
+
+    <h2>9. お子様のプライバシー</h2>
+    <p>Shopping List は13歳未満のお子様を対象としたアプリではなく、お子様から個人情報を意図的に収集することはありません。</p>
+
+    <h2>10. ポリシーの変更</h2>
+    <p>当社は、アプリや運用方針の変更に応じて、このプライバシーポリシーを更新することがあります。更新がある場合は、上記の「最終更新日」に反映されます。</p>
+
+    <div class="contact">
+        <h2>お問い合わせ</h2>
+        <p>このプライバシーポリシーに関するご質問は、以下までご連絡ください。</p>
+        <p><a href="mailto:pelapela.education@gmail.com">pelapela.education@gmail.com</a></p>
+    </div>
+</body>
+</html>
